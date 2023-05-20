@@ -1,0 +1,24 @@
+<mat-grid-list cols="1" rowHeight="100%" > 
+    <mat-grid-tile>
+        <mat-card>
+            <mat-card-header>
+                <div mat-card-avatar class="thumb-header-image"></div>
+                <mat-card-title>{{page.title}}</mat-card-title>
+                <mat-card-subtitle>{{page.subtitle}}</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content><p>{{page.content}}</p></mat-card-content>
+            <mat-card-actions align="end">
+                <button mat-icon-button 
+                    matTooltip="GitHub" 
+                    onclick="window.open('https://github.com/AleToledoCR', '_blank')">
+                    <fa-icon [icon]="faGithub"></fa-icon>
+                </button>
+                <button mat-icon-button 
+                    matTooltip="LinkedIn" 
+                    onclick="window.open('https://www.linkedin.com/in/atoledovalverde/', '_blank')">
+                    <fa-icon [icon]="faLinkedin"></fa-icon>
+                </button>
+            </mat-card-actions>
+        </mat-card>
+    </mat-grid-tile>
+</mat-grid-list>

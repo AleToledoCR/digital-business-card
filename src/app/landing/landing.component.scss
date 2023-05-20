@@ -1,0 +1,37 @@
+:host {
+    //display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+md-card {
+    width:500px;
+    background: rgba(255,255,255,0.9);
+}
+
+md-card-header {
+    color: #3f51b5;
+}
+
+md-card-content {
+    padding: 8px;
+}
+
+.thumb-header-image {
+    background-image: url('/assets/thumb01.jpg');
+    background-size: cover;
+}
+
+mat-card {
+    background-color: rgba(241,242,227,0.8);
+    
+    /*Cellphone*/
+    @media only screen and (max-width: 768px) { 
+        margin: 50px;
+    }
+
+    /*PC and Tablet*/
+    @media only screen and (min-width: 768px) { 
+        margin: 100px;
+    }
+}
