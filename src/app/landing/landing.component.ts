@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-landing',
@@ -11,11 +12,15 @@ export class LandingComponent implements OnInit{
   page = {
     title: 'Alejandro Toledo Valverde',
     subtitle: 'Development Tech Lead',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu est nec felis lacinia lobortis. Integer dapibus gravida hendrerit. Sed vitae sapien diam. Sed in neque sit amet magna porta pharetra id quis eros. Vestibulum lobortis enim ut sapien laoreet hendrerit. Morbi ultrices, purus et pretium consequat, odio mauris malesuada mauris, non maximus magna eros non enim. Nunc in aliquet tortor. Nullam vel erat mollis, vehicula sapien eu, suscipit nisl. Proin convallis leo quam, eu sodales purus sollicitudin quis. Sed eget risus suscipit, porttitor metus nec, dictum felis. Morbi in consequat nibh, a aliquam metus. Phasellus scelerisque rutrum aliquet. In eleifend vel libero sed pellentesque. Donec bibendum odio enim, in vestibulum est euismod a. Curabitur vestibulum, libero sit amet dapibus fermentum, velit dolor tempor elit, ac imperdiet ligula nisl consectetur lorem.',
+    content: 'Hey there! You have reached Alejandro\'s own presentation site. I am going to be adding features here in my free time. For now I am a tech lead working in the tech/finance industry. I\'ve been dealing with all the usual stuff like web app security, cloud (I\'m more into GCP lately), Java backends using microservice architecture and of course Angular frontends as you might have notice by this site. If you want to know more about me or want to get in touch check the links below!',
     image: 'assets/mesh-bg.png',
   };
+  
+  //Icon references
   faLinkedin = faLinkedin;
   faGithub = faGithub;
+  faTwitter = faTwitter;
+
   constructor() {}
   ngOnInit() {}
 }

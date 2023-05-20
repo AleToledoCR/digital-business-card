@@ -9,6 +9,11 @@
             <mat-card-content><p>{{page.content}}</p></mat-card-content>
             <mat-card-actions align="end">
                 <button mat-icon-button 
+                    matTooltip="Twitter" 
+                    onclick="window.open('https://twitter.com/AtoledoCR', '_blank')">
+                    <fa-icon [icon]="faTwitter"></fa-icon>
+                </button>
+                <button mat-icon-button 
                     matTooltip="GitHub" 
                     onclick="window.open('https://github.com/AleToledoCR', '_blank')">
                     <fa-icon [icon]="faGithub"></fa-icon>
