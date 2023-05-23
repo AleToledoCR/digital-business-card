@@ -1,0 +1,6 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'us-west2-docker.pkg.dev/$PROJECT_ID/personal-images-repo/digital-business-card', '.']
+#- name: 'gcr.io/cloud-builders/docker'
+#  args: ['push', 'us-docker.pkg.dev/$PROJECT_ID/personal-stuff-repo/digital-business-card:v0.1']
+images: ['us-west2-docker.pkg.dev/$PROJECT_ID/personal-images-repo/digital-business-card']
