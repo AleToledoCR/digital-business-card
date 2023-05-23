@@ -40,3 +40,9 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# GCP config files
+app.yaml
+cloudbuild.yaml
+Dockerfile
+nginx.conf
