@@ -42,7 +42,8 @@ testem.log
 Thumbs.db
 
 # GCP config files
-app.yaml
-cloudbuild.yaml
-Dockerfile
-nginx.conf
+/app.yaml
+/cloudbuild.yaml
+/Dockerfile
+/nginx.conf
+/.gcloudignore
